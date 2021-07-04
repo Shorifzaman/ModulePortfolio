@@ -1,17 +1,10 @@
 
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
 }
-h1{
-    font-size: 50px;
-    font-weight: 700;
-}
-
 section{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 80vh;
     padding-bottom: 100px;
 }
@@ -19,19 +12,27 @@ section{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
+.haf-withd{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 3%;
+    margin: 0px 25px
+}
+.haf-withd h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
 .orengtitle{
     color: orange;
 
 }
-.haf-withd{
-    width: 40%;
-    float: left;
-    padding-left: 5%;
-    padding-right: 3%;
-    margin: 0px 50px
-}
+
 .haf-withd img{
-    width: 80%;
+    width: 95%;
 }
 .hire-btn{
     text-decoration: none;
@@ -44,20 +45,23 @@ section{
 }
 .haf-withd p{
     color: rgb(68, 66, 66);
-    padding: 0px 90px 0px 0px;
+/*    padding: 0px 90px 0px 0px;*/
 
 }
 .dreem-section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100px;
+/*    background-size: 100px;*/
+}
+h2{
+    font-size: 30px;
 }
 .experiences-area{
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 90px;
+
     
 
 }
@@ -67,15 +71,22 @@ section{
     border-radius: 5px;
     height: 80%;
     background-color: white;
+    width: 35%;
 }
 #full-stack{
     border-left: 7px solid;
+    -o-border-image: linear-gradient(180deg, rgb(204, 90, 90), tomato);
+    border-image: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 90, 90)), to(tomato));
     border-image: linear-gradient(180deg, rgb(204, 90, 90), tomato);
     border-image-slice:1 ;
+    margin-left: 5%;
+
     
 }
 #baby-stack{
     border-left: 7px solid;
+    -o-border-image: linear-gradient(180deg, rgb(24, 0, 243), rgb(61, 152, 255));
+    border-image: -webkit-gradient(linear, left top, left bottom, from(rgb(24, 0, 243)), to(rgb(61, 152, 255)));
     border-image: linear-gradient(180deg, rgb(24, 0, 243), rgb(61, 152, 255));
     border-image-slice:1 ;
 }
