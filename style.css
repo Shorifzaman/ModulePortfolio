@@ -1,32 +1,41 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+    margin: 0;
 }
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
 section{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    height: 80vh;
+    padding-bottom: 100px;
 }
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
-h1{
-    font-size: 50px;
-    font-weight: 400;
-}
 .orengtitle{
     color: orange;
-    font-size: 30px;
+
 }
 .haf-withd{
-    width: 50%;
+    width: 40%;
+    float: left;
     padding-left: 5%;
+    padding-right: 3%;
+    margin: 0px 50px
 }
 .haf-withd img{
     width: 80%;
 }
 .hire-btn{
     text-decoration: none;
+    background-image: -webkit-gradient(linear , left top, left bottom , from(orange) , to(rgb(255, 75, 4)) );
     background-image: linear-gradient(orange , rgb(255, 75, 4) );
     border-radius: 5px;
     padding: 10px 40px;
@@ -35,5 +44,43 @@ h1{
 }
 .haf-withd p{
     color: rgb(68, 66, 66);
-}
+    padding: 0px 90px 0px 0px;
 
+}
+.dreem-section{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+}
+.experiences-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90px;
+    
+
+}
+.card{
+    -webkit-box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(204, 90, 90), tomato);
+    border-image-slice:1 ;
+    
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(24, 0, 243), rgb(61, 152, 255));
+    border-image-slice:1 ;
+}
+footer p{
+    text-align: center;
+    color: lightslategrey;
+    font-weight: 400;
+}
